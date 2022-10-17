@@ -5,8 +5,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.contrib.fsm_storage.redis import RedisStorage2
 
-from telegram_translator_bot.tgbot.handlers.all import register_all
-from telegram_translator_bot.tgbot.handlers.start import register_start
+from tgbot.handlers.all import register_all
+from tgbot.handlers.start import register_start
 from tgbot.config import load_config
 from tgbot.filters.admin import AdminFilter
 from tgbot.handlers.not_admin import register_not_admin
